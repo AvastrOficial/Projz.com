@@ -18,5 +18,11 @@ al funcionar los datos puedes vicularlos a un pluging de telegram bot y te llega
 ![image](https://github.com/AvastrOficial/phishing-Projz.com/assets/91764815/488f5370-3a9e-47bd-ba29-c30d016b3ce5)
 
 ## como conectar la api de ips :
+![image](https://github.com/AvastrOficial/phishing-Projz.com/assets/91764815/e70d15f3-a733-4904-a5d4-5e764d5cd7f8)
+utilizando la api de peticion al estraer datos privados del dispositivo al visializar el contenido como una apgina web
+https://ipinfo.io/
+todos los datos que optendrias seria :
+![image](https://github.com/AvastrOficial/phishing-Projz.com/assets/91764815/bc36e3ed-b97c-470d-922a-609e514d009d)
+![image](https://github.com/AvastrOficial/phishing-Projz.com/assets/91764815/3ed5f1b7-e9f7-4d5e-8137-960f426feab0)
 
 
