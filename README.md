@@ -25,4 +25,11 @@ todos los datos que optendrias seria :
 ![image](https://github.com/AvastrOficial/phishing-Projz.com/assets/91764815/bc36e3ed-b97c-470d-922a-609e514d009d)
 ![image](https://github.com/AvastrOficial/phishing-Projz.com/assets/91764815/3ed5f1b7-e9f7-4d5e-8137-960f426feab0)
 
+# link del pishing oline :
+https://z-web.foroactivo.com/
 
+## infocmacion inportante
+en cada carpeta esta los datos y lo que le falta 
+
+## Autor :
+AvaStrOficial
