@@ -1,0 +1,347 @@
+ 
+
+body {
+   font-family: Arial, sans-serif;
+  background-color: #170021; /* Color de fondo del cuerpo de la página */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  color: white; /* Color del texto en la página */
+  background-image: url('https://files.catbox.moe/df7k1p.png'); /* URL de la imagen */
+  background-size: 100% 100%; /* Ajusta el tamaño de la imagen para cubrir todo el div */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  overflow: hidden; /* Evita el desbordamiento de contenido */
+}
+        
+        .button {
+            display: inline-block;
+            text-align: center;
+            text-decoration: none;     
+            cursor: pointer;
+        }
+
+      
+      
+    .botones-container {
+  display: flex;
+  flex-direction: column; /* Mostrar los botones de forma vertical */
+  margin-bottom: -100px; /* Margen negativo para reducir el espacio entre botones */
+}
+        #google-btn {
+          
+          width: 400px; /* Ancho del botón */
+            height:100px; /* Altura del botón */           
+            background-image: url('https://files.catbox.moe/7mhph2.png'); /* Ruta de la imagen que descargaste */
+            background-size: contain; /* Ajusta el tamaño de la imagen para que se ajuste dentro del botón */
+            background-position: center; /* Centra la imagen dentro del botón */
+            background-repeat: no-repeat; /* Evita que la imagen se repita */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            text-align: center;
+            cursor: pointer;
+          transition: opacity 0.3s ease;
+         
+        }
+
+        #facebook-btn {
+          width: 400px; /* Ancho del botón */
+            height:100px; /* Altura del botón */                    
+            background-image: url('https://files.catbox.moe/n28smn.png'); /* Ruta de la imagen que descargaste */
+            background-size: contain; /* Ajusta el tamaño de la imagen para que se ajuste dentro del botón */
+            background-position: center; /* Centra la imagen dentro del botón */
+            background-repeat: no-repeat; /* Evita que la imagen se repita */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            text-align: center;
+            cursor: pointer;
+          transition: opacity 0.3s ease;
+        
+        }
+        
+      /* Aplicar estilos cuando el ancho de la pantalla sea 768px o más */
+@media (min-width: 700px) {
+  .google-btn {
+    width: 100vw; /* Ancho de la pantalla */
+    height: 100vh; /* Alto de la pantalla */
+    border-radius: 0; /* Quitar el redondeo de las esquinas si es necesario */
+  }
+}
+      /* Aplicar estilos cuando el ancho de la pantalla sea 768px o más */
+@media (min-width: 700px) {
+  .facebook-btn {
+    width: 100vw; /* Ancho de la pantalla */
+    height: 100vh; /* Alto de la pantalla */
+    border-radius: 0; /* Quitar el redondeo de las esquinas si es necesario */
+  }
+}
+      
+       /* Cambiar la opacidad al presionar */
+    #google-btn:active,
+#facebook-btn:active {
+  opacity: 0.5; /* Cambiar la opacidad al 50% */
+}
+      
+        /* Estilos para el contenido */
+        h1, p {
+            color: white; /* Color del texto para que se vea sobre la imagen de fondo */
+        }
+      
+      .circle-button {
+            width: 50px;
+            height: 50px;
+            border-radius: 25%; /* Hace que el borde sea circular */
+            border: none;
+            background-color: rgba(169, 169, 169, 0.2); /* Color grisáceo semi-transparente */
+            color: rgba(169, 169, 169, 0.6);
+            color: white;
+            font-size: 26px;
+            position: absolute; /* Posiciona el botón de manera absoluta */
+            top: 10px; /* Distancia desde la parte superior */
+            left: 10px; /* Distancia desde la parte izquierda */
+            cursor: pointer;
+        }
+      
+  .contenedor {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.contenedor img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+      
+/* Estilos para el contenedor de los separadores */
+.separador-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%; /* Ancho del contenedor para los separadores */
+  margin: 20px auto; /* Margen superior e inferior de 20px, y centrado horizontal con 'auto' */
+}
+
+/* Estilos para el separador */
+.separador {
+  flex: 1;
+  height: 2px;
+  background-color: black;
+}
+
+     .email {
+      width: 50px; /* Diámetro del círculo */
+      height: 50px; /* Diámetro del círculo */
+      border-radius: 25%; /* Hace que el borde sea circular */
+      background-color: #000; /* Color de fondo del círculo (negro en este caso) */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 35%; /* Hace que el borde sea circular */
+      border: 1px solid #FF5CE6; 
+      background: radial-gradient(rgba(169, 169, 169, 0.2), #AA0090); /* Degradado de fondo */
+      color: white;
+      font-size: 26px;
+      cursor: pointer;
+      transition: opacity 0.3s ease;
+    }
+
+    /* Estilo para el icono dentro del círculo */
+    .email i {
+      color: white; /* Color del icono */
+      font-size: 30px; /* Tamaño del icono */
+    }
+    
+    /* Cambiar la opacidad al presionar */
+    .email:active {
+      opacity: 0.5; /* Cambiar la opacidad al 50% */
+    }
+      
+     .cel {
+      width: 50px; /* Diámetro del círculo */
+      height: 50px; /* Diámetro del círculo */
+      border-radius: 25%; /* Hace que el borde sea circular */
+      background-color: #000; /* Color de fondo del círculo (negro en este caso) */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 35%; /* Hace que el borde sea circular */
+      border: 1px solid #F1B821; 
+      background: radial-gradient(rgba(169, 169, 169, 0.2), #B68606); /* Degradado de fondo */
+      color: white;
+      font-size: 26px;
+      cursor: pointer;
+      transition: opacity 0.3s ease;
+    }
+
+    /* Estilo para el icono dentro del círculo */
+    .cel i {
+      color: white; /* Color del icono */
+      font-size: 30px; /* Tamaño del icono */
+    }
+    
+    /* Cambiar la opacidad al presionar */
+    .cel:active {
+      opacity: 0.5; /* Cambiar la opacidad al 50% */
+    }
+      
+         /* Contenedor para los círculos */
+    .inicioseciones {
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  gap: 90px;
+  width: 100%; /* Ocupar el ancho completo disponible */
+}
+      /* Estilos para el div con la imagen de fondo */
+  
+       .texto {
+      position: absolute; /* Posiciona el texto de manera absoluta */
+      top: 10px; /* Ajusta la distancia desde la parte superior */
+      left: 50%; /* Centra horizontalmente */
+      transform: translateX(-50%); /* Centra horizontalmente */
+      z-index: 2; /* Asegura que esté por encima del fondo */
+      color: white; /* Color del texto */
+    }
+      .texto-help {
+      position: absolute; /* Posiciona el texto de manera absoluta */
+      top: 10px; /* Ajusta la distancia desde la parte superior */
+      right: 10px; /* Ajusta la distancia desde el borde derecho */
+      z-index: 2; /* Asegura que esté por encima del fondo */
+      color: white; /* Color del texto */
+    }
+       .texto-help a {
+      color: inherit; /* Hereda el color del texto del elemento padre */
+      text-decoration: none; /* Elimina el subrayado predeterminado */
+      border-bottom: 1px solid; /* Añade una línea inferior */
+    }
+      
+       /* Estilos CSS para la ventana emergente */
+    .modal {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #fff; 
+      border-radius: 5px;
+      padding: 20px;
+      color: black;
+      z-index: 9999;
+       width: 300px; /* Ancho del modal */
+    }
+
+    .modal-content {
+      text-align: center;
+        color: black;
+    }
+ .modal-content p {
+     text-align: center;
+      color: black; 
+    }
+      
+     .modal-close {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      cursor: pointer;
+      color: black;
+      width: 30px; /* Ancho del botón de cierre */
+      height: 30px; /* Altura del botón de cierre */
+      font-size: 24px; /* Tamaño del ícono de cierre */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+ /* Estilos para la imagen dentro de la ventana emergente */
+    .modal-content img {
+      width: 50px; /* Ancho de la imagen */
+      height: auto; /* Altura automática para mantener la proporción */
+      border-radius: 10px; /* Bordes redondeados */
+    }     
+      
+      .separador-google {
+      border: 0;
+      border-top: 1px solid #ccc; /* Línea horizontal de 2px con color #333 */
+      margin: 10px 0; /* Espacio alrededor del separador */
+    }
+    /* Estilos CSS para el botón */
+    .agregar-nuevo-usuarion {
+      display: inline-block;
+      padding: 5px 30px;
+      border: 1px solid transparent; /* Borde transparente */
+      cursor: pointer;
+      background-color: transparent; /* Fondo transparente */
+      color: #333;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      transition: color 0.3s ease, border-color 0.3s ease; /* Transición de color y borde al pasar el cursor */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 5px;
+    }
+
+    .agregar-nuevo-usuarion:hover {
+      color: black; /* Cambia el color del texto a gris (#ccc) al pasar el cursor */
+   
+    }
+ .agregar-nuevo-usuarion:active {
+      background-color: rgba(128, 128, 128, 0.5); /* Cambia el color del fondo a gris transparente al presionar */
+    }
+
+    .agregar-nuevo-usuarion i {
+      margin-right: 10px; /* Ajusta el margen derecho del icono */
+      color: black; /* Establece el color del icono */
+    }
+ .texto-gris-claro {
+      color: rgba(128, 128, 128, 1); /* Color gris en formato rgba */
+      text-align: right; /* Alineación del texto a la derecha */
+    }
+
+    .texto-gris-claro a {
+      color: #00CCCC; /* Color azul para los enlaces dentro de .texto-gris-claro */
+    }
+      
+      
+     .facebook {
+      display: none; /* Oculta el contenido dentro de las clases .facebook y .ocultar */
+    }
+      
+    .popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.95); /* Fondo semi-transparente */
+    z-index: 9999;
+    overflow-y: auto;
+    box-sizing: border-box; /* Asegura que el padding esté incluido en el ancho/altura total */
+}
+
+  
+      
+       .ocultar {
+      /* Estilos de la sección ocultar */
+      position: relative; /* Asegura que los elementos hijos estén posicionados relativamente */
+      z-index: 1; /* Ajusta el índice z para que esté por encima del fondo */
+    }
+      
+    .ocultar .elemento-a-ocultar {
+      display: none; /* Oculta ciertos elementos dentro de .ocultar */
+    }
