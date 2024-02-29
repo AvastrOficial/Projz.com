@@ -1,0 +1,122 @@
+body {
+   font-family: Arial, sans-serif;
+  background-color: #170021; /* Color de fondo del cuerpo de la página */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  color: white; /* Color del texto en la página */
+ 
+}
+        
+        .button {
+            display: inline-block;
+            text-align: center;
+            text-decoration: none;     
+            cursor: pointer;
+        }
+
+      
+      
+    .botones-container {
+  display: flex;
+  flex-direction: column; /* Mostrar los botones de forma vertical */
+  margin-bottom: -100px; /* Margen negativo para reducir el espacio entre botones */
+}
+
+  .circle-button {
+            width: 50px;
+            height: 50px;
+            border-radius: 25%; /* Hace que el borde sea circular */
+            border: none;
+            background-color: rgba(169, 169, 169, 0.2); /* Color grisáceo semi-transparente */
+            color: rgba(169, 169, 169, 0.6);
+            color: white;
+            font-size: 26px;
+            position: absolute; /* Posiciona el botón de manera absoluta */
+            top: 10px; /* Distancia desde la parte superior */
+            left: 10px; /* Distancia desde la parte izquierda */
+            cursor: pointer;
+        }
+      
+
+
+.contenedor img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+  .texto-help {
+      position: absolute; /* Posiciona el texto de manera absoluta */
+      top: 10px; /* Ajusta la distancia desde la parte superior */
+      right: 10px; /* Ajusta la distancia desde el borde derecho */
+      z-index: 2; /* Asegura que esté por encima del fondo */
+      color: white; /* Color del texto */
+    }
+       .texto-help a {
+      color: inherit; /* Hereda el color del texto del elemento padre */
+      text-decoration: none; /* Elimina el subrayado predeterminado */
+      
+    }
+
+ .texto {
+      position: absolute; /* Posiciona el texto de manera absoluta */
+      top: 10px; /* Ajusta la distancia desde la parte superior */
+      left: 50%; /* Centra horizontalmente */
+      transform: translateX(-50%); /* Centra horizontalmente */
+      z-index: 2; /* Asegura que esté por encima del fondo */
+      color: white; /* Color del texto */
+    }
+
+.custom-input {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: hsl(290, 40%, 15%); /* Morado oscuro con saturación y luminosidad más bajas */
+  color: #fff; /* Texto en blanco para mayor contraste */
+}
+
+
+.custom-button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 20px;
+  background-color: hsl(290, 40%, 15%);
+  color: #666; 
+  cursor: pointer;
+}
+
+.custom-button:hover {
+   background-color: hsl(290, 40%, 10%);
+}
+
+.custom-link {
+  color: #fff; /* Color blanco para el enlace */
+  text-decoration: none; /* Elimina el subrayado predeterminado del enlace */
+}
+
+.custom-link:hover {
+  text-decoration: underline; /* Añade un subrayado cuando pasas el mouse sobre el enlace */
+}
+
+.toggle-password {
+  position: absolute;
+  right: 400px;
+  top: 45%;
+  transform: translateY(-100%);
+  cursor: pointer;
+}
+
+.toggle-password i {
+  font-size: 1.2em;
+}
+
+.password-container {
+  position: relative;
+}
