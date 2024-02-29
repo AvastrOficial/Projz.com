@@ -12,7 +12,7 @@ api formularios free : https://formspree.io/
 api envio de datos ip : https://ipinfo.io/
 
 como conectar el api de formulario :
-  <!--
+ 
 <form
   action="https://formspree.io/f/myyrjegg"
   method="POST"
@@ -26,4 +26,3 @@ como conectar el api de formulario :
 
 <button type="submit" class="custom-button"><h2>Iniciar Sesión</h2></button>
 </form>
-  -->
