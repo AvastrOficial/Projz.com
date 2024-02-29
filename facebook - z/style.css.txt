@@ -1,0 +1,285 @@
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     color: black
+}
+img{
+    max-width: 100%;
+}
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+hr {
+    margin: 20px 0;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: .25;
+}
+hr:not([size]) {
+    height: 1px;
+}
+/******************************************************
+             Main Aria Section CSS Style
+******************************************************/
+.footer-section {
+    max-width: 1399px;
+    margin: 0 auto;
+}
+.main{
+    background-color: #f0f2f5;
+}
+.main-section {
+    max-width: 1399px;
+    overflow: hidden;
+    padding: 125px 100px 195px 100px;
+    margin: 0 auto;
+}
+.contents {
+    width: 90%;
+    margin: 0 auto;
+}
+.main-section .w-50 {
+    width: 50%;
+    float: left;
+}
+.footer-section ul{
+    list-style: none;
+}
+.footer-section ul li{
+    display: inline-block;
+    color: #8a8d91;
+    font-size: 12px;
+}
+.footer-section .lan-sec ul li a {
+	display: block;
+	color: #8a8d91;
+	padding: 0 5px;
+	margin-top: 5px;
+	font-size: 12px;
+}
+.footer-section ul li a:hover{
+    text-decoration: underline;
+}
+.fb-logo img {
+    margin-bottom: -7px;
+}
+.fb-logo {
+    width: 280px;
+    margin-left: -27px;
+}
+.main-section h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.1;
+}
+.login-form {
+    background-color: white;
+    width: 390px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    float: right;
+    overflow: hidden;
+}
+.login-form input{
+    display: block;
+}
+.log-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 17px;
+}
+.login-form input {
+    display: block;
+    font-size: 15px;
+    padding: 15px 20px;
+    width: 365px;
+    margin-bottom: 15px;
+    border-radius: 7px;
+    border: 1px solid #ddd;
+}
+.log-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.main-section .login-form input[type="submit"] {
+    background-color: #1877f2;
+    color: white;
+    font-family: Helvetica;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 11px 20px;
+    border: none;
+    transition: .2s;
+    cursor: pointer;
+}
+.main-section .login-form input[type="submit"]:hover{
+    background-color: #166fe5;
+}
+.log-content a {
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+    font-size: 17px;
+    color: #1877f4;
+}
+.log-content form :nth-child(4):hover{
+    text-decoration: underline;
+}
+form > a:last-of-type {
+    background: #42b72a;
+    color: white;
+    width: 210px;
+    margin: 0 auto;
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 12px 3px;
+    border-radius: 5px;
+    font-family: Helvetica;
+    transition: .2s;
+    margin-bottom: 9px;
+}
+form > a:last-of-type:hover{
+    background-color: #36a420;
+}
+::placeholder {
+    color: #a9a9a9;
+    font-family: Helvetica;
+    font-size: 17px;
+}
+.p-con p {
+    text-align: center;
+    width: 390px;
+    margin-top: 20px;
+    font-family: Helvetica;
+    float: right;
+    font-size: 14px;
+}
+.p-con a {
+    color: black;
+    font-weight: 600;
+}
+.p-con a:hover{
+    text-decoration: underline;
+}
+.fb-logo-items {
+    padding-top: 80px;
+}
+.link-sec ul li a {
+    color: #8a8d91;
+    padding-right: 18px;
+    line-height: 1.5;
+}
+.copy-right {
+	color: #8a8d91;
+	padding: 12px 0px 0 0px;
+	margin-bottom: 30px;
+	margin-top: 18px;
+	font-size: 11px;
+}
+.footer-contect {
+    width: 76%;
+    margin: 0 auto;
+}
+.lan-sec {
+    margin-bottom: -9px;
+}
+.link-sec {
+	margin-top: -11px;
+}
+.lan-sec i {
+    border: 1px solid #ddd;
+    padding: 3px 8px;
+    background: #fcfbfb;
+}
+.lan-sec i:hover{
+    background-color:#f1f1f1 ;
+}
+/*************************************************
+                Responsive CSS
+*************************************************/
+@media (max-width:1200px) and (min-width:901px){
+    .main-section {
+        padding: 125px 0px 195px 0px;
+    }
+    .footer-contect {
+        width: 100%;
+    }
+    .main-section h2 {
+        font-size: 23px;
+    }
+}
+@media (max-width:900px){
+    .main-section {
+        padding: 0;
+    }
+    .main-section .w-50 {
+        width: 100%;
+    }
+    .fb-logo {
+        margin: auto;
+    }
+    .main-section h2 {
+        margin-bottom: 40px;
+        font-size: 23px;
+    }
+    .fb-text {
+        width: 400px;
+        margin: auto;
+        text-align: center;
+         color: black
+    }
+    .p-con {
+        margin-bottom: 115px;
+    }
+    .lan-sec {
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
+    .footer-contect {
+        width: 90%;
+    }
+    .login-form {
+        margin: auto;
+        float: none;
+    }
+    .p-con p {
+        float: none;
+        margin: auto;
+        margin-top: 20px;
+    }
+}
+@media (max-width:450px){
+    .login-form {
+        width: 320px;
+    }
+    .login-form input {
+        max-width: 100%;
+    }
+    form {
+        max-width: 100%;
+    }
+    .p-con p {
+        max-width: 100%;
+    }
+    .main-section h2 {
+        font-size: 20px;
+    }
+    .fb-text {
+        width: 320px;
+        color: black;
+    }
+    .fb-logo-items {
+        padding-top: 20px;
+    }
+}
