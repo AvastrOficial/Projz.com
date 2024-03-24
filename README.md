@@ -1,7 +1,7 @@
-# phishing-Projz.com
+# Projz.com
 Autor : BSZ - BlackStrZ
 
-# phising - BSZ / Proyecto Zcoins free
+# BSZ / Proyecto Zcoins free
 
 El Proyecto Z, también conocido como la aplicación Z, es tu destino para conocer a tus amigos del metaverso, mejores amigos, almas gemelas y jugadores de rol. También es una comunidad global de personas que buscan diversión y dar rienda suelta a su creatividad, y autoexpresión.
 
